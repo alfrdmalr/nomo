@@ -1,0 +1,17 @@
+{
+  "name": "@pairtreefamily/utils",
+  "version": "0.0.0",
+  "main": "dist/index",
+  "type": "module",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist"
+  },
+  "devDependencies": {
+    "typescript": "4.9.3"
+  }
+}
