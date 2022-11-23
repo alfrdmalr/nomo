@@ -1,7 +1,8 @@
 {
   "references": [
       { "path": "./apps/my-app" },
-      { "path": "./packages/utils" }
+      { "path": "./packages/utils" },
+      { "path": "./packages/ui" }
   ],
   "files": []
 }
