@@ -4,4 +4,7 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+// transpile from our local packages
+const withTM = require('next-transpile-modules')(['@pairtreefamily/ui']);
+
+module.exports = withTM(nextConfig);

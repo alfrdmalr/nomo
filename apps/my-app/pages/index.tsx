@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { hello, shuffle, test } from '@pairtreefamily/utils'
+import { Accordion, AccordionContent, AccordionToggler, Button } from '@pairtreefamily/ui'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,22 @@ const Home: NextPage = () => {
       hello {hello}
 
       shuffle: {shuffle(test)}
+
+      <Button />
+
+      <Accordion>
+        <AccordionToggler
+          renderToggler={({ expanded }) => expanded ? "close accordion" : "open accordion"}
+        />
+        <AccordionContent>
+          accordion body!!!
+          accordion body!!!
+          accordion body!!!
+          accordion body!!!
+          accordion body!!!
+        </AccordionContent>
+
+      </Accordion>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
