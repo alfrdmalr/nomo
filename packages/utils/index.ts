@@ -15,4 +15,6 @@ export function shuffle<T>(array: T[]) {
 
 export const test = [5, 4, 3, 2, 1, 0]
 
+export const beef = () => "rap";
+
 export const hello = "world";  

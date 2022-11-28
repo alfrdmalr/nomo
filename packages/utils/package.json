@@ -1,12 +1,9 @@
 {
   "name": "@pairtreefamily/utils",
   "version": "0.0.0",
-  "main": "dist/index",
+  "main": "index.ts",
   "type": "module",
-  "types": "dist/index",
-  "files": [
-    "dist"
-  ],
+  "types": "index",
   "scripts": {
     "clean": "rm -rf ./dist"
   },

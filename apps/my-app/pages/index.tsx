@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { hello, shuffle, test } from '@pairtreefamily/utils'
+import { hello, shuffle, test, beef } from '@pairtreefamily/utils'
 import { Accordion, AccordionContent, AccordionToggler, Button } from '@pairtreefamily/ui'
 
 const Home: NextPage = () => {
@@ -16,6 +16,8 @@ const Home: NextPage = () => {
       hello {hello}
 
       shuffle: {shuffle(test)}
+
+      beef: {beef()}
 
       <Button />
 

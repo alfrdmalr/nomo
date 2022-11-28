@@ -8,9 +8,6 @@
     "clean": "rm -rf dist types",
     "prebuild": "npm run clean"
   },
-  "files": [
-    "dist"
-  ],
   "devDependencies": {
     "react": "^18.2.0",
     "@types/react": "^18.0.25",

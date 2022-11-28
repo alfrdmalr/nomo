@@ -5,6 +5,6 @@ const nextConfig = {
 }
 
 // transpile from our local packages
-const withTM = require('next-transpile-modules')(['@pairtreefamily/ui']);
+const withTM = require('next-transpile-modules')(['@pairtreefamily/ui', '@pairtreefamily/utils']);
 
 module.exports = withTM(nextConfig);
